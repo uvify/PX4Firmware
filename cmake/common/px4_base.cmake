@@ -418,6 +418,7 @@ function(px4_add_upload)
 			/dev/serial/by-id/*_PX4_*
 			/dev/serial/by-id/*_Autopilot*
 			/dev/serial/by-id/*Bitcraze*
+			/dev/serial/by-id/*UVify_FMU_BL*
 			)
 	elseif(${CMAKE_HOST_SYSTEM_NAME} STREQUAL "Darwin")
 		list(APPEND serial_ports
